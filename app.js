@@ -1,6 +1,8 @@
 import Board from "/modules/Board.js";
 import View from "/modules/View.js";
 
+var snapshot;
+
 for(let i = 0; i < 100000; i++) {
 
   // Set up board. First fill it with pins, and then remove the one you want.
